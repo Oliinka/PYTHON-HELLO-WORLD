@@ -12,17 +12,19 @@ while command.lower() != "help":
         print("pleas type 'help'")
     elif command == "help":
         print("""Pleas write:
-            start - to sart car
-            stop  - to stop car
-            quit  - to exit""")
+    start - to sart car
+    stop  - to stop car
+    quit  - to exit""")
 
 command_2 = ""
-while command_2.lower() != "quit":
+while True:
     command_2 = input("> ").lower()
     if command_2 == "start":
         print("car has started")
     elif command_2 == "stop":
         print("car has stopped")
+    elif command_2 == "quit":
+        break
     else:
         print("I don't understande!")
 else:
