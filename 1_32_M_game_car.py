@@ -3,8 +3,6 @@ How to play?
 Let's see if you find out!
 Have fun!""")
 
-guess_count = 0
-guess_limit = 3
 command = ""
 while command.lower() != "help":
     command = input("> ").lower()
