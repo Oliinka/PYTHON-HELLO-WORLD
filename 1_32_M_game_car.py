@@ -24,6 +24,6 @@ while True:
     elif command_2 == "quit":
         break
     else:
-        print("I don't understande!")
+        print("I don't understand!")
 else:
     print("game over!")
